@@ -1,0 +1,84 @@
+body{
+    background-image: url(4444.webp);
+    background-size: cover;
+    background-position: 10px;
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(198, 173, 147);
+    font-size: 22px;
+}
+.letra{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.titulo2{
+    text-align: left;
+    color: rgb(198, 173, 147);
+    font-size: 25px;
+}
+.sub{
+    font-size: 40px;
+    color:  rgb(198, 173, 147);
+    margin-top: 10px;
+    position: relative;
+}
+p{
+     margin-top: 20px;
+     position: relative;
+     font-size: 22px;
+     color: rgb(255, 119, 0);
+}
+.titulo3{
+    margin-top: -120px;
+    margin-left: 800px;
+    position: absolute;
+    color: rgb(198, 173, 147);
+    font-size: 25px;
+}
+.cita{
+    color: red;
+    font-family: cursive;
+    text-align: center;
+}
+.menu{
+    width: 1000px;
+    margin-right: auto;
+    position: relative;
+}
+header{ 
+    background: rgb(184, 35, 35);
+    width: 100%;
+    clear: both;
+    content:"";
+    display: table;
+}
+nav{ 
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left:40px;
+    padding: 20px 0;
+    float: left;
+    position: relative;
+}
+nav ul li{
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+nav ul li a::before{ 
+    display: block;
+    content:"" ;
+    width: 100%;
+    background: #444;
+    height: 5px;
+    top: 0;
+    position: absolute;
+}
+.im{
+    width: 100px;
+}

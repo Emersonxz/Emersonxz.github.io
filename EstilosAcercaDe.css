@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-image:url(logo.jpg);
+    background-size: cover;
+}
+.container {
+    margin-top: 140px;
+    margin-left: 70px;
+    width: 530px;
+    height: 420px;
+    color: white;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.rojo{
+    width: 530px;
+    height: 510px;
+    margin-top: -370px;
+    margin-left: 800px;
+    color: white;
+}
+h3{
+    text-align: center;
+    color: rgb(228, 77, 77);
+}
+.cita{
+    color: red;
+    margin-top: 250px;
+    font-family: cursive;
+    text-align: center;
+}
+.cx5{
+    color: rgb(228, 77, 77);
+    margin-top: -950px;
+    position: absolute;
+    font-size: 20px;
+    margin-left: 280px;
+
+}
+.miata{
+    color: rgb(228, 77, 77);
+    margin-top: -950px;
+    position: absolute;
+    font-size: 20px;
+    margin-left: 999px;
+}
+.pp{
+    color: rgb(228, 77, 77);
+}
+.menu{
+    width: 1000px;
+    margin-right: auto;
+    position: relative;
+}
+header{ 
+    background: rgb(184, 35, 35);
+    width: 100%;
+    clear: both;
+    content:"";
+    display: table;
+}
+nav{ 
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left:40px;
+    padding: 20px 0;
+    float: left;
+    position: relative;
+}
+nav ul li{
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+nav ul li a::before{ 
+    display: block;
+    content:"" ;
+    width: 100%;
+    background: #444;
+    height: 5px;
+    top: 0;
+    position: absolute;
+}
+.im{
+    width: 100px;
+}
